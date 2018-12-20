@@ -2,7 +2,7 @@
 ;;
 ;; Copyright (c) 2015-2016 zilongshanren 
 ;;
-;; Author: zilongshanren <guanghui8827@gmail.com>
+;; Author: zilongshanren <doubiliao@gmail.com>
 ;; URL: https://github.com/zilongshanren/spacemacs-private
 ;;
 ;; This file is not part of GNU Emacs.
@@ -265,7 +265,7 @@ version 2015-08-21"
 
 (defun my-setup-develop-environment ()
   (interactive)
-  (when (my-project-name-contains-substring "guanghui")
+  (when (my-project-name-contains-substring "Boiao Ch")
     (cond
      ((my-project-name-contains-substring "cocos2d-x")
       ;; C++ project don't need html tags
